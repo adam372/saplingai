@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F5F3EF;
+    color: #2F3E46;
+    line-height: 1.7;
+}
+
+header {
+    background: #F5F3EF;
+    padding: 30px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #2F3E46;
+    font-weight: 400;
+}
+
+nav a:hover {
+    color: #6B705C;
+}
+
+.hero {
+    padding: 100px 8%;
+    max-width: 1100px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    max-width: 600px;
+}
+
+.hero p {
+    margin-top: 20px;
+    max-width: 500px;
+    color: #6B705C;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 28px;
+    background: #6B705C;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 0.9rem;
+}
+
+.section {
+    padding: 80px 8%;
+    max-width: 1100px;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+footer {
+    padding: 40px 8%;
+    font-size: 0.9rem;
+    color: #6B705C;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #EFEDE8;
+}
+
+form button {
+    padding: 12px 30px;
+    background: #6B705C;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
